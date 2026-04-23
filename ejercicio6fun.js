@@ -28,3 +28,4 @@ console.log(Math.abs(24));
 function tirarDado() {
   return Math.round(Math.random() + 5);
 }
+console.log(tirarDado());
