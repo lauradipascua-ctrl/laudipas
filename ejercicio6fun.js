@@ -36,3 +36,9 @@ function areaCirculo(radio) {
 console.log(areaCirculo(5));
 console.log(areaCirculo(10));
 //Ejercicio 10
+const precios = [19.99, 4.5, 13.75, 8.2, 99.49];
+for (const precio of precios) {
+  console.log("original: " + precio);
+  console.log("redondeo hacia arriba", Math.ceil(precio));
+  console.log("redondeo hacia abajo", Math.floor(precio));
+}
