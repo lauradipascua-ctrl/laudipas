@@ -31,3 +31,4 @@ function parOImpar(numero) {
 console.log(parOImpar(74));
 
 //Ejercicio 4
+function mayorDeTres(numeros) {}
