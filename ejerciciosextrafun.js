@@ -33,13 +33,13 @@ for (let i = 1; i <= 10; i++) {
 }
 
 //Ejercicio 4
-function mayorDeTres(a, b, c) {
-  let mayor = a;
-  if (b > mayor) {
-    mayor = b;
+function mayorDeTres(num1, num2, num3) {
+  let mayor = num1;
+  if (num2 > mayor) {
+    mayor = num2;
   }
-  if (c > mayor) {
-    mayor = c;
+  if (num3 > mayor) {
+    mayor = num3;
   }
   return mayor;
 }
@@ -86,8 +86,8 @@ const caracteres = [
 function gernerarContraseña(longitud) {
   let contraseña = "";
   for (let i = 0; i < longitud; i++) {
-    let indiceAleatorio = Math.floor(Math.random() * caracteres.length);
-    contraseña = contraseña + caracteres[indiceAleatorio];
+    const aleatorio = Math.floor(Math.random() * caracteres.length);
+    contraseña += caracteres[aleatorio];
   }
   return contraseña;
 }
