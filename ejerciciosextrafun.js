@@ -32,5 +32,13 @@ console.log(parOImpar(74));
 
 //Ejercicio 4
 function mayorDeTres(a, b, c) {
-  if
+  let mayor = a;
+  if (b > mayor) {
+    mayor = b;
+  }
+  if (c > mayor) {
+    mayor = c;
+  }
+  return mayor;
 }
+console.log(mayorDeTres(3, 7, 2));
