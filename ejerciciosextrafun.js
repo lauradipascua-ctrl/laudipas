@@ -28,7 +28,9 @@ function parOImpar(numero) {
     return "impar";
   }
 }
-console.log(parOImpar(74));
+for (let i = 1; i <= 10; i++) {
+  console.log(i + "->" + parOImpar(i));
+}
 
 //Ejercicio 4
 function mayorDeTres(a, b, c) {
