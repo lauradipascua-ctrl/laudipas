@@ -17,8 +17,19 @@ const libro = {
 console.log(libro);
 //Ejercicio3
 const producto = {
-   nombre:"mouse vertical"
-   precio: 79,
-   stock: 4,
-   disponible: true,
+  nombre: "mouse vertical",
+  precio: 79,
+  stock: 4,
+  disponible: true,
 };
+//Ejercicio4
+const cancion = {
+  titulo: "creo en mi",
+  artista: "Natalia Gimenez",
+  año: 2014,
+  duracion: 407,
+  favorita: true,
+
+  describir: function(){
+    return "${this"
+  }
