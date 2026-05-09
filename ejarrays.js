@@ -6,6 +6,7 @@ const estudiantes = [
 ];
 console.log(estudiantes[0].nombre);
 console.log(estudiantes[3]);
+console.log(estudiantes);
 //Ejercicio5
 const peliculas = [
   { titulo: "Toy Story", anio: 1995, puntaje: 8.3 },
@@ -14,4 +15,4 @@ const peliculas = [
   { titulo: "Parasite", anio: 2019, puntaje: 8.6 },
 ];
 console.log(peliculas[0].titulo);
-console.log(peliculas.length[puntaje]);
+console.log(peliculas[peliculas.length - 1].puntaje);
