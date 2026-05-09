@@ -23,7 +23,7 @@ const producto = {
   disponible: true,
 };
 //Ejercicio4
-const cancion = {
+const song = {
   titulo: "creo en mi",
   artista: "Natalia Gimenez",
   año: 2014,
@@ -31,5 +31,5 @@ const cancion = {
   favorita: true,
 
   describir: function(){
-    return "${this"
+    return song.titulo + "de" + song.artista + "" + song.año
   }
