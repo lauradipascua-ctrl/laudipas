@@ -5,6 +5,7 @@ const estudiantes = [
   { nombre: "Sofia", edad: 21, aprobado: true },
 ];
 console.log(estudiantes[0].nombre);
+console.log(estudiantes[3]);
 //Ejercicio5
 const peliculas = [
   { titulo: "Toy Story", anio: 1995, puntaje: 8.3 },
