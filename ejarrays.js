@@ -16,3 +16,8 @@ const peliculas = [
 ];
 console.log(peliculas[0].titulo);
 console.log(peliculas[peliculas.length - 1].puntaje);
+peliculas[0].puntaje = 9.0;
+peliculas.push({"titanic": 2
+
+  //Ejercici6
+  
